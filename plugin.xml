@@ -9,8 +9,11 @@
         <engine name="cordova" version=">=8.0.0"/>
     </engines>
     <platform name="ios">
-        <config-file target="*-Info.plist" parent="NSAllowsArbitraryLoads">
-            <false />
-        </config-file>
+        <edit-config target="*-Info.plist" parent="NSAppTransportSecurity" mode="overwrite">
+            <dict>
+                <key>NSAllowsArbitraryLoads</key>
+                <false />
+            </dict>
+        </edit-config>
     </platform>
 </plugin>
