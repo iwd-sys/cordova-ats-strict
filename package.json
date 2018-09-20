@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-ats-strict",
-  "version": "1.0.0-rc2",
+  "version": "1.0.0-rc3",
   "author": "Sylvain LEPRETRE <sylvain@iwd.io> (https://iwd.io)",
   "description": "Cordova / PhoneGap Plugin Permission Settings for NSApplicationTransportSecurity NSAllowsArbitraryLoads in iOS 11 by adding a declaration to the Info.plist file. NSAllowsArbitraryLoads set to false to ensure non-HTTPS I/O is blocked",
   "cordova": {
