@@ -3,7 +3,7 @@
     <name>iOS ATS strict Permissions</name>
     <author>Sylvain LEPRETRE (sylvain@iwd.io)</author>
     <description>Cordova / PhoneGap Plugin Permission Settings for NSApplicationTransportSecurity NSAllowsArbitraryLoads in iOS 11 by adding a declaration to the Info.plist file. NSAllowsArbitraryLoads set to false to ensure non-HTTPS I/O is blocked</description>
-    <keywords>cordova, ios, app, security, permissions, NSApplicationTransportSecurity, NSAllowsArbitraryLoads</keywords>
+    <keywords>cordova, ios, ios10, ios11, app, security, permissions, NSApplicationTransportSecurity, NSAllowsArbitraryLoads, ecosystem:cordova, cordova-ios</keywords>
     <license>MIT</license>
     <engines>
         <engine name="cordova" version=">=8.0.0"/>
